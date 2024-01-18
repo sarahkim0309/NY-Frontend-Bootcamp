@@ -2,3 +2,5 @@ git -v = check git version
 git init = initialize git repo
 git config --global user.name "username" = setting up username
 git config --global email "email" = setting up email 
+git add "filename" = adding files to staging area 
+git status -m "commit message" = committing files in the staging area 
