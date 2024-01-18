@@ -4,3 +4,7 @@ git config --global user.name "username" = setting up username
 git config --global email "email" = setting up email 
 git add "filename" = adding files to staging area 
 git status -m "commit message" = committing files in the staging area 
+git status = checking files in the staging area/checking status of files
+git add .= it commits all the files 
+if i want to exclude a specific file from being committed, I can use: git rm --cached filename
+git rm --cached filename : remove file from staging area
